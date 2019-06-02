@@ -3,7 +3,7 @@
  * @param {Message} message
  * @return {Element}
  */
-export function buildMessageDiv(message){
+function buildMessageDiv(message){
   const usernameDiv = document.createElement('div');
   usernameDiv.classList.add("left-align");
   usernameDiv.appendChild(document.createTextNode(message.user));

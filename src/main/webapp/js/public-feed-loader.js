@@ -1,5 +1,3 @@
-import { buildMessageDiv } from '/js/build-message-div.js';
-
 // Fetch messages and add them to the page.
 function fetchMessages(){
   const url = '/feed';
